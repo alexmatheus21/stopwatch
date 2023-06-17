@@ -1,20 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Digital Clock</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-     <h1>Stopwatch</h1>
-     <p><span id="seconds">00</span>:<span id="tens">00</span></p>
-     <button id="button-start">Start</button>
-     <button id="button-stop">Stop</button>
-     <button id="button-reset">Reset</button>
-    </div> 
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cronômetro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="wrapper">
+    <h1>Cronômetro</h1>
+    <p><span id="minutes">00</span>:<span id="seconds">00</span>:<span id="tens">00</span></p>
+    <button id="button-start">Começar</button>
+    <button id="button-stop">Pausar</button>
+    <button id="button-reset">Reiniciar</button>
+  </main>
+  <aside class="changelog">
+    <h2>changelog</h2>
+    <ul>
+      <li>Adicionado Cronômetro de minutos</li>
+      <li>Traduzido para PT-BR</li>
+      <li>Estilo/design do site atualizado</li>
+    </ul>
+    <h3>o que falta fazer?</h3>
+    <ul>
+      <li>Atualizar Bugs de responsividade</li>
+    </ul>
+  </aside>
+  <footer>
+    <span>Criado por <a href="https://www.instagram.com/css.wizard/" target="_blank" type="external">CSS Wizard</a> / Modificado por <a href="https://www.instagram.com/dev.menezes/" target="_blank" type="external">Mac Menezes</a></span>
+  </footer>
   <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
